@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký sản phẩm</title>
+    <link rel="icon" href="images/images.png">
+    <style>
+        label{
+            font-size:25px;
+        }
+        input{
+            font-size:25px;
+        }
+    </style>
+</head>
+<body>
+    <from>
+        <h1>Đăng ký pre-order các sản phẩm FIT - HCMUE NĂM HỌC 2026 - 2027</h1>
+        <ol style="font-size:20px">
+        <li><b>Giá các sản phẩm</b></li>
+            <ul>
+                <li>Áo khoa: 130.000đ/áo</li>
+                <li>Dây đeo: 30.000đ/dây</li>
+                <li>Móc khóa: 15.000đ/móc</li>
+            </ul>
+            <li><b>Thời gian đăng ký:</b>Từ ngày 12/10/2026 đến hết ngày 20/10/2026.</li>
+            <li><b>Thời gian nhận hàng:</b>Vì các sản phẩm được đặt sản<br>
+                 xuất theo số lượng đăng ký nên thời gian nhận hàng sẽ<br>
+                được thông báo sau khi kết thúc đợt đăng ký và hoàn tất<br>
+                 các thủ tục đặt hàng.</li>
+        </ol>
+        <label for="idstudent">Mã số sinh viên (có chấm, VD: 51.01.104.001)</label><br>
+        <input type="text" id="idstudent">
+        <br>
+        <br>
+        <label for="username">Họ tên</label><br>
+        <input type="text" id="username"><br>
+        <label for="class">Lớp</label><br>
+        <select id="class" style="font-size:20px">
+            <option value="52.01.CNTT.A">52.01.CNTT.A</option>
+            <option value="52.01.CNTT.B">52.01.CNTT.B</option>
+            <option value="52.01.CNTT.C">52.01.CNTT.C</option>
+        </select>
+        <h2>Mẫu áo khoa</h2>
+        <img src="images/unnamed.jpg"
+        width="300px" height="250px">
+        <h2>Size áo (Bảng size mang tính chất tham khảo thông số,<br>
+            form áo unisex nên cơ bản cũng khá thoải mái, nếu muốn<br>
+            phòng rủi ro ngắn/chật thì có thể tăng size)</h2>
+        <img src="images/unnamed1.png"
+        width="300px" height="250px">
+        <label for="title"></label><br>
+        <label for="XS">XS</label>
+        <input type="radio" id="XS" value="XS" name="title"><br>
+        <label for="S">S</label>
+        <input type="radio" id="S" value="S" name="title"><br>
+        <label for="M">M</label>
+        <input type="radio" id="M" value="M" name="title"><br>
+        <label for="L">L</label>
+        <input type="radio" id="L" value="L" name="title"><br>
+        <label for="XL">XL</label>
+        <input type="radio" id="XL" value="XL" name="title"><br>
+        <label for="XXL">XXL</label>
+        <input type="radio" id="XXL" value="XXL" name="title"><br>
+        <label for="XXXL">XXXL</label>
+        <input type="radio" id="XXXL" value="XXXL" name="title"><br>
+        <label for="Vượt size">Vượt size</label>
+        <input type="radio" id="Vượt size" value="Vượt size" name="title"><br>
+        <label for="Không mua áo">Không mua áo</label>
+        <input type="radio" id="Không mua áo" value="Không mua áo" name="title"><br>
+        <h2>Nếu "Vượt size", vui lòng cung cấp thông tin chiều cao - cân<br>
+            nặng - số đo ngang ngực (VD: 1m55 - 50kg - 70cm)</h2>
+        <h3>(Cách lấy số đo ngang ngực: chọn áo thun bạn mặc thoải<br>
+            mái nhất, trải thẳng áo => đo sát mép nách này qua nách kia<br>
+            như ảnh minh họa)</h3>
+        <img src="images/unnamed 2.jpg"
+        width="400px" height="400px"><br>
+        <label for="ý kiến"></label>
+        <input type="text" id="ý kiến"><br>
+        <label for="oder">Số lượng áo (chỉ điền số, VD: 0, 1, 2...)</label><br>
+        <input type="number" id="oder" min="0">
+        <h2>Mẫu dây đeo</h2>
+        <img src="images/unnamed3.png"
+        width="300px" height="250px"><br>
+        <label for="goods">Số lượng dây đeo (chỉ điền số, VD: 0, 1, 2...)</label><br>
+        <input type="number" id="goods" min="0">
+        <h2>Mẫu móc khoá</h2>
+        <img src="images/unnamed4.png"
+        width="300px" height="250px"><br>
+        <label for="goods">Số lượng móc khóa(chỉ điền số, VD: 0, 1, 2...)</label><br>
+        <input type="number" id="goods" min="0"><br>
+        <lable for="comment" style="font-size:20px">Tôi xác nhận đã điền đúng và đầy đủ các thông tin trên<br>
+                (KIỂM TRA THÔNG TIN LẠI NGAY TRƯỚC KHI TICK CHỌN<br>
+                XÁC NHẬN NHÉEEE)<br>
+                xác nhận</lable>
+        <input type="checkbox" id="comment"><br>
+        <input type="reset">
+        <input type="submit"
+        style="float:right"><br>
+    </from>
+</body>
+</html>
